@@ -91,112 +91,13 @@
       "date": "3/28/2023"
     },
     {
-      "position": "asd",
-      "company": "asd",
-      "location": "asdasd",
-      "status": "Devam Ediyor",
-      "type": "Uzaktan",
-      "id": "81874892-a8f2-4178-9ce1-6eb88f674c0c",
-      "date": "9/2/2023"
-    },
-    {
-      "position": "adasd",
-      "company": "asdas",
-      "location": "dasdasd",
-      "status": "Devam Ediyor",
-      "type": "Yarı Zamanlı",
-      "id": "0aabd128-3b74-4700-93be-c8a2821475a2",
-      "date": "9/2/2023"
-    },
-    {
-      "position": "asd",
-      "company": "asd",
-      "location": "asdasd",
-      "status": "Devam Ediyor",
-      "type": "Yarı Zamanlı",
-      "id": "ed3ae2cc-4940-4752-98af-a5f2532aaba9",
-      "date": "9/2/2023"
-    },
-    {
-      "position": "yeni iş",
-      "company": "asels",
-      "location": "ankarar",
-      "status": "Mülakat",
-      "type": "Staj",
-      "id": "0ea8583f-cf45-48b7-a4f0-13e2eefb4c0e",
-      "date": "9/2/2023"
-    },
-    {
-      "position": "asd",
-      "company": "asd",
-      "location": "asd",
-      "status": "Devam Ediyor",
-      "type": "Uzaktan",
-      "id": "1bf0295a-025f-4c6c-bf4f-4d44e2d7324d",
-      "date": "9/2/2023"
-    },
-    {
-      "position": "werwer",
-      "company": "werwer",
-      "location": "werwer",
-      "status": "Mülakat",
-      "type": "Uzaktan",
-      "id": "e77985eb-abcb-4cbb-9f6f-0145b5b088e2",
-      "date": "9/30/2023"
-    },
-    {
-      "position": "erwer",
-      "company": "werwer",
-      "location": "werwer",
-      "status": "Mülakat",
-      "type": "Yarı Zamanlı",
-      "id": "bf34a392-792f-4bc1-8bf2-c38f75c9b504",
-      "date": "9/30/2023"
-    },
-    {
-      "position": "werwer",
-      "company": "werwer",
-      "location": "werwer",
-      "status": "Devam Ediyor",
-      "type": "Staj",
-      "id": "365c187d-0edd-4ad9-a469-e8c46348574b",
-      "date": "9/30/2023"
-    },
-    {
-      "position": "tryrty",
-      "company": "rtyrt",
-      "location": "rtytry",
-      "status": "Devam Ediyor",
-      "type": "Tam Zamanlı",
-      "id": "88cc13bf-a9f5-4ad1-93f6-5835d05f0911",
-      "date": "9/30/2023"
-    },
-    {
-      "position": "asd",
-      "company": "ads",
-      "location": "asd",
+      "position": "React",
+      "company": "Udemig",
+      "location": "Uzaktan",
       "status": "Mülakat",
       "type": "Tam Zamanlı",
-      "id": "ea146cb1-b15f-4f4f-95bf-ce700bf96d15",
-      "date": "01.10.2023"
-    },
-    {
-      "position": "asd",
-      "company": "asd",
-      "location": "asd",
-      "status": "Devam Ediyor",
-      "type": "Staj",
-      "id": "c0eeff93-b458-469a-be47-b5c8f28ef051",
-      "date": "01.10.2023"
-    },
-    {
-      "position": "asd",
-      "company": "ads",
-      "location": "asd",
-      "status": "Mülakat",
-      "type": "Staj",
-      "id": "5ae8e417-f17a-42c8-a6d2-dd3d08b45cc3",
-      "date": "01.10.2023"
+      "id": "2022a664-d54c-4dfa-b84c-ea881b5be1e3",
+      "date": "04.10.2023"
     }
   ]
 }

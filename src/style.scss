@@ -131,30 +131,30 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    select,input{
+    select,
+    input {
       padding: 10px 15px;
-      border-radius:5px;
+      border-radius: 5px;
       outline: none;
       border: none;
       margin-top: 5px;
     }
-    div{
+    div {
       display: flex;
       flex-direction: column;
-     
     }
-    div:last-child{
+    div:last-child {
       display: grid;
       place-items: center;
     }
-    button{
+    button {
       background: black;
       padding: 10px 40px;
       border-radius: var(--radius);
-      color:white;
+      color: white;
       transition: all 0.3s;
-      &:hover{
-        box-shadow: 0px 10px 50px #BD3064;
+      &:hover {
+        box-shadow: 0px 10px 50px #bd3064;
         cursor: pointer;
       }
     }
@@ -162,3 +162,11 @@ header {
 }
 
 //! end add-job
+
+//! start joblis
+.filter-sec {
+  @extend .add-sec;
+  max-width: 859px;
+}
+
+//! end joblis

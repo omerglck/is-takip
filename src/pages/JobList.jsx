@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setError, setJobs } from "../redux/jobSlice";
+import Filter from "../components/Filter";
 
 const JobList = () => {
   const state = useSelector((store) => store);
@@ -18,8 +19,11 @@ const JobList = () => {
 
   return (
     <div className="list-page">
+
+        <Filter />
+
       <h2 contentEditable="true">
-        Bulunan (16) iş arasından (16) tanesini görüntülüyorsunuz.
+        Bulunan ({state.mainJobs.length}) iş arasından ({state.jobs.length}) tanesini görüntülüyorsunuz.
       </h2>
       <section className="job-list">
         {/* API'dan cevap bekleniyorsa */}

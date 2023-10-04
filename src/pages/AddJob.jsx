@@ -5,9 +5,13 @@ import "react-toastify/dist/ReactToastify.css";
 import { v4 } from "uuid";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addJob } from "../redux/jobSlice";
 
 const AddJob = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -37,6 +41,19 @@ const AddJob = () => {
     axios
       .post("http://localhost:3050/jobs", newJob)
       .then(() => {
+        // yeni işi store'a kaydetme
+        dispatch(addJob(newJob))
+
+        toast.success("İş başarılıyla eklendi.", {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
         navigate("/");
       })
       .catch((error) => toast.error("Beklenmedik bir hata oluştu..."));
@@ -86,8 +103,6 @@ const AddJob = () => {
           <button>Ekle</button>
         </div>
       </form>
-
-      <ToastContainer />
     </div>
   );
 };

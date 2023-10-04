@@ -1,6 +1,24 @@
-## Yapılanlar
+## Proje Yapısı:
 
-- İş listesi ve iş ekleme sayfaları yapıldı
+- Komponentler ve sayfalar organize edildi.
+
+- Redux toolkit kullanarak proje yapısı oluşturuldu.
+
+- JSON Server ile veriler tutuldu.
+
+- - Ana Sayfa:
+
+- İşleri listeler ve filtreleme yapılabilir.
+
+- - İş Ekleme Sayfası:
+
+- Kullanıcı yeni işler ekleyebilir.
+
+- - Redux Toolkit Kullanımı:
+
+- redux toolkit kuruldu ve yapılandırıldı.
+
+- redux toolkit ile iş yönetimi (slices,actions,reducers) gerçekleştirildi.
 
 ## Kullanılan Kütüphaneler
 
@@ -12,3 +30,7 @@
 - react-redux
 - @reduxjs/toolkit
 - uuid
+
+## Gif
+
+<img  src="./public/images/screen.gif"/>

@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ job }) => {
   // console.log(job)
   const { company, date, location, position, status, type, id } = job;
-  console.log(status);
+  // console.log(status);
 
   const getClassName = () => {
     switch (status) {

@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <header>
       <div>
-        <Link className="logo"> İş Takip</Link>
+        <Link className="logo" to="/">
+          {" "}
+          İş Takip
+        </Link>
       </div>
       <div className="links">
         <NavLink to={"/"}>İş Listesi</NavLink>
