@@ -6,15 +6,15 @@
 
 - JSON Server ile veriler tutuldu.
 
-- - Ana Sayfa:
+- Ana Sayfa:
 
 - İşleri listeler ve filtreleme yapılabilir.
 
-- - İş Ekleme Sayfası:
+- İş Ekleme Sayfası:
 
 - Kullanıcı yeni işler ekleyebilir.
 
-- - Redux Toolkit Kullanımı:
+- Redux Toolkit Kullanımı:
 
 - redux toolkit kuruldu ve yapılandırıldı.
 
